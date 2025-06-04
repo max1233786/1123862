@@ -1,0 +1,22 @@
+body {
+  background-color: #f5f3ff;
+}
+
+.card {
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+  border-bottom: 2px solid #9955FF;
+  padding-bottom: 0.5rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
